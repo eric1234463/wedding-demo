@@ -1,4 +1,5 @@
 import backgroundImage from '../assets/invitation-background.jpeg'
+import NameIconBg from '../assets/name-icon-bg.jpeg'
 import { createEvent, EventAttributes } from 'ics';
 
 
@@ -43,11 +44,18 @@ const InvitationCard = () => {
   }
 
   return (
-    <div style={{ backgroundImage: `url(${backgroundImage})` }} className='relative flex bg-cover bg-no-repeat bg-center lg:h-full h-[600px]'>
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
-        <div className="w-full text-center text-4xl text-[#333] pb-4">Cynthia & Eric</div>
-        <div className="w-full text-center text-xl pb-4">21 Jan 2024</div>
-        <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded" onClick={handleOnCalenderAddClick}>
+    <div style={{ backgroundImage: `url(${backgroundImage})` }} className='relative flex bg-cover bg-no-repeat bg-center lg:h-full h-[1000px]'>
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full flex items-center flex-col'>
+        <div style={{ backgroundImage: `url(${NameIconBg})` }} className='flex bg-contain bg-no-repeat bg-center w-80 h-80 relative'>
+          <div className='flex-row flex items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#8B6024] text-center'>
+            <div className='w-[64px] text-2xl'>Cynthia</div>
+            <div className='text-2xl font-rainbow px-4' style={{ writingMode: 'vertical-rl', textOrientation: 'upright' }}>K&K</div>
+            <div className='w-[64px] text-2xl'>Eric</div>
+          </div>
+        </div>
+        <div className="w-full text-center text-6xl text-[#333] pb-4 pt-8">Cynthia & Eric</div>
+        <div className="w-full text-center text-2xl pb-4">21 Jan 2024</div>
+        <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded text-xl font-comfortaa" onClick={handleOnCalenderAddClick}>
           Add to your Calender
         </button>
       </div>

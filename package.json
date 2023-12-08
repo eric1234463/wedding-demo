@@ -11,6 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/comfortaa": "^5.0.18",
+    "@fontsource/berkshire-swash": "^5.0.18",
+    "@fontsource/over-the-rainbow": "^5.0.18",
     "@fontsource/pacifico": "^5.0.8",
     "autoprefixer": "^10.4.16",
     "ics": "^3.5.0",

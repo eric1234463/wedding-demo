@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'rainbow': 'Over the Rainbow',
+      'comfortaa': 'Comfortaa Variable',
+      'berkshire': 'Berkshire Swash',
+    }
   },
   plugins: [],
 }

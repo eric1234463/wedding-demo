@@ -360,6 +360,21 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.55.0.tgz#b721d52060f369aa259cf97392403cb9ce892ec6"
   integrity sha512-qQfo2mxH5yVom1kacMtZZJFVdW+E70mqHMJvVg6WTLo+VBuQJ4TojZlfWBjK0ve5BdEeNAVxOsl/nvNMpJOaJA==
 
+"@fontsource-variable/comfortaa@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/comfortaa/-/comfortaa-5.0.18.tgz#28a934175ad65c9b67ea4fbf7bd6de6b9b73aa11"
+  integrity sha512-VmnejEg618sWs5kbxzKDWlBajztDBsNFcSk4xhzZoFZ46qGQY1zqFR7MmKckVwLN3sRfl3ObdJ0yzeVT+u0jow==
+
+"@fontsource/berkshire-swash@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/berkshire-swash/-/berkshire-swash-5.0.18.tgz#1ceb00a231c2b0886f89fd08fb987f43a6562af3"
+  integrity sha512-9MZIC8oli2uZHmIhMwEJuX3Di0tua1fXdeHu5RR9z/sJdk6vkgNtlzEUFn6FsVosSjLcIO/OWuqTh0r4jRwEdw==
+
+"@fontsource/over-the-rainbow@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/over-the-rainbow/-/over-the-rainbow-5.0.18.tgz#87251353dc0562cd245a5abd53bac65a902b7e50"
+  integrity sha512-EyRRVTyWFUXsgrdEVFKa+fdRRABSVAgMa9IK6FO395B+8KxK38p1pPWJDn2wU+s4YMu2rr7vO93ztJCeQPFKHg==
+
 "@fontsource/pacifico@^5.0.8":
   version "5.0.8"
   resolved "https://registry.yarnpkg.com/@fontsource/pacifico/-/pacifico-5.0.8.tgz#e64744f93299b4a1762264abbda5102be1941b1b"
