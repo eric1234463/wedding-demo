@@ -29,7 +29,7 @@ const InvitationCard = () => {
       })
     })
 
-    const url = URL.createObjectURL(file);
+    const url = URL.createObjectURL(file as any);
 
     const anchor = document.createElement('a');
     anchor.href = url;
