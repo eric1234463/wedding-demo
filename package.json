@@ -17,10 +17,16 @@
     "@fontsource/pacifico": "^5.0.8",
     "autoprefixer": "^10.4.16",
     "ics": "^3.5.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-particle-image": "^1.0.2",
+    "react-pixelate": "^0.0.1",
+    "react-router-dom": "^6.20.1",
     "react-slideshow-image": "^4.3.0",
+    "sort-by": "^1.2.0",
     "tailwindcss": "^3.3.6"
   },
   "devDependencies": {

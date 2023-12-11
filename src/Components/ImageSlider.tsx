@@ -42,7 +42,7 @@ const slideImages = [
 const WeddingImageSlider = () => {
   return (
     <div className="slide-container lg:h-screen h-full">
-      <Slide arrows={false} duration={4000} autoplay={true}>
+      <Slide arrows={false} duration={4000} autoplay={true} infinite={true}>
         {slideImages.map((slideImage, index) => (
           <div key={index}>
             <div style={{ 'backgroundImage': `url(${slideImage.url})` }} className='bg-cover bg-center h-screen relative'>
