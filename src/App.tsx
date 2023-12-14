@@ -5,13 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import PixelPage from "./pages/PixelPage";
+// import PixelPage from "./pages/PixelPage";
 
 const router = createBrowserRouter([
-  {
-    path: "/pixel",
-    element: <PixelPage />,
-  },
+  // {
+  //   path: "/pixel",
+  //   element: <PixelPage />,
+  // },
   {
     path: "/",
     element: <HomePage />,
