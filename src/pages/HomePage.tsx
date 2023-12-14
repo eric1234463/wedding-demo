@@ -1,3 +1,5 @@
+import React from 'react';
+
 import WeddingImageSlider from "../components/ImageSlider"
 import InvitationCard from "../components/InvitationCard"
 
