@@ -30,7 +30,8 @@ const InvitationCard = () => {
       })
     })
 
-    const url = URL.createObjectURL(file as any);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const url = URL.createObjectURL(file as unknown as any);
 
     const anchor = document.createElement('a');
     anchor.href = url;
