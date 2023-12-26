@@ -14,12 +14,12 @@ const router = createBrowserRouter([
   //   element: <PixelPage />,
   // },
   {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
     path: "/payment",
     element: <PaymentPage />,
+  },
+  {
+    path: "/",
+    element: <HomePage />,
   },
 ]);
 
