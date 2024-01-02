@@ -15,6 +15,7 @@
     "@fontsource/berkshire-swash": "^5.0.18",
     "@fontsource/over-the-rainbow": "^5.0.18",
     "@fontsource/pacifico": "^5.0.8",
+    "@vis.gl/react-google-maps": "^0.4.2",
     "autoprefixer": "^10.4.16",
     "ics": "^3.5.0",
     "localforage": "^1.10.0",

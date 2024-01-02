@@ -1,5 +1,6 @@
 import WeddingImageSlider from "../components/ImageSlider"
 import InvitationCard from "../components/InvitationCard"
+import MapCard from "../components/MapCard";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,9 @@ const HomePage = () => {
       </div>
       <div className="lg:col-span-5 col-span-12 ">
         <InvitationCard />
+      </div>
+      <div className="lg:col-span-12 col-span-12 ">
+        <MapCard />
       </div>
     </div>
   )
