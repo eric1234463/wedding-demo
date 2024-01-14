@@ -18,7 +18,6 @@ import slider15 from '../assets/15.jpg'
 import slider16 from '../assets/16.jpg'
 import slider17 from '../assets/17.jpg'
 import slider18 from '../assets/18.jpg'
-import slider19 from '../assets/19.jpg'
 
 
 const slideImages = [
@@ -69,8 +68,6 @@ const slideImages = [
     url: slider17,
   }, {
     url: slider18,
-  }, {
-    url: slider19,
   }
 ];
 
