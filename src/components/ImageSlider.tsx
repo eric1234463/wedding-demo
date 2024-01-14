@@ -1,13 +1,25 @@
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import slider1 from '../assets/slider-1.jpg'
-import slider2 from '../assets/slider-2.jpg'
-import slider3 from '../assets/slider-3.jpg'
-import slider4 from '../assets/slider-4.jpg'
-import slider5 from '../assets/slider-5.jpg'
-import slider6 from '../assets/slider-6.jpg'
-import slider7 from '../assets/slider-7.jpg'
-import slider8 from '../assets/slider-8.jpg'
+import slider1 from '../assets/1.jpg'
+import slider2 from '../assets/2.jpg'
+import slider3 from '../assets/3.jpg'
+import slider4 from '../assets/4.jpg'
+import slider5 from '../assets/5.jpg'
+import slider6 from '../assets/6.jpg'
+import slider7 from '../assets/7.jpg'
+import slider8 from '../assets/8.jpg'
+import slider9 from '../assets/9.jpg'
+import slider10 from '../assets/10.jpg'
+import slider11 from '../assets/11.jpg'
+import slider12 from '../assets/12.jpg'
+import slider13 from '../assets/13.jpg'
+import slider14 from '../assets/14.jpg'
+import slider15 from '../assets/15.jpg'
+import slider16 from '../assets/16.jpg'
+import slider17 from '../assets/17.jpg'
+import slider18 from '../assets/18.jpg'
+import slider19 from '../assets/19.jpg'
+
 
 const slideImages = [
   {
@@ -37,6 +49,29 @@ const slideImages = [
   {
     url: slider8,
   },
+  {
+    url: slider9,
+  }, {
+    url: slider10,
+  }, {
+    url: slider11,
+  }, {
+    url: slider12,
+  }, {
+    url: slider13,
+  }, {
+    url: slider14,
+  }, {
+    url: slider15,
+  }, {
+    url: slider16,
+  }, {
+    url: slider17,
+  }, {
+    url: slider18,
+  }, {
+    url: slider19,
+  }
 ];
 
 const WeddingImageSlider = () => {
