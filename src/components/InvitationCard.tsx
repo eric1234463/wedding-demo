@@ -1,49 +1,49 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import backgroundImage from '../assets/invitation-background.jpeg'
 import NameIconBg from '../assets/name-icon-bg.jpeg'
-import { createEvent, EventAttributes } from 'ics';
+// import { createEvent, EventAttributes } from 'ics';
 
 
 const InvitationCard = () => {
-  const handleOnCalenderAddClick = async () => {
-    const filename = 'EricAndCynthiaWedding.ics'
+  // const handleOnCalenderAddClick = async () => {
+  //   const filename = 'EricAndCynthiaWedding.ics'
 
-    const event: EventAttributes = {
-      start: [2024, 1, 21, 11, 30],
-      duration: { hours: 4, minutes: 30 },
-      geo: { lat: 22.36879855333074, lon: 114.11300372685335 },
-      title: 'Eric & Cynthia Wedding',
-      description: '多謝大家賞面出席',
-      location: '荃灣西如心酒店',
-      status: 'CONFIRMED',
-      busyStatus: 'BUSY',
-    }
+  //   const event: EventAttributes = {
+  //     start: [2024, 1, 21, 11, 30],
+  //     duration: { hours: 4, minutes: 30 },
+  //     geo: { lat: 22.36879855333074, lon: 114.11300372685335 },
+  //     title: 'Eric & Cynthia Wedding',
+  //     description: '多謝大家賞面出席',
+  //     location: '荃灣西如心酒店',
+  //     status: 'CONFIRMED',
+  //     busyStatus: 'BUSY',
+  //   }
 
-    createEvent(event)
+  //   createEvent(event)
 
-    const file = await new Promise((resolve, reject) => {
-      createEvent(event, (error, value) => {
-        if (error) {
-          reject(error)
-        }
+  //   const file = await new Promise((resolve, reject) => {
+  //     createEvent(event, (error, value) => {
+  //       if (error) {
+  //         reject(error)
+  //       }
 
-        resolve(new File([value], filename, { type: 'text/calendar' }))
-      })
-    })
+  //       resolve(new File([value], filename, { type: 'text/calendar' }))
+  //     })
+  //   })
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const url = URL.createObjectURL(file as unknown as any);
+  //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  //   const url = URL.createObjectURL(file as unknown as any);
 
-    const anchor = document.createElement('a');
-    anchor.href = url;
-    anchor.download = filename;
+  //   const anchor = document.createElement('a');
+  //   anchor.href = url;
+  //   anchor.download = filename;
 
-    document.body.appendChild(anchor);
-    anchor.click();
-    document.body.removeChild(anchor);
+  //   document.body.appendChild(anchor);
+  //   anchor.click();
+  //   document.body.removeChild(anchor);
 
-    URL.revokeObjectURL(url);
-  }
+  //   URL.revokeObjectURL(url);
+  // }
 
   return (
     <div style={{ backgroundImage: `url(${backgroundImage})` }} className='relative flex bg-cover bg-no-repeat bg-center lg:h-full h-[1000px]'>
