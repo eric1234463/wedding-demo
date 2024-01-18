@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import backgroundImage from '../assets/invitation-background.jpeg'
 import NameIconBg from '../assets/name-icon-bg.jpeg'
 import { createEvent, EventAttributes } from 'ics';
