@@ -57,9 +57,9 @@ const InvitationCard = () => {
         <div className="w-full text-center text-6xl text-[#333] pb-4 pt-8">Cynthia & Eric</div>
         <div className="w-full text-center text-2xl pb-4">21 Jan 2024 11:30am</div>
         <div className="w-full text-center text-xl pb-4 font-comfortaa">NINA HOTEL TSUEN WAN WEST 7/F Hall C</div>
-        <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded text-xl font-comfortaa" onClick={handleOnCalenderAddClick}>
+        {/* <button className="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded text-xl font-comfortaa" onClick={handleOnCalenderAddClick}>
           Add to your Calender
-        </button>
+        </button> */}
       </div>
     </div>
   )
