@@ -78,8 +78,6 @@ const slideImages = [
     url: slider21,
   }, {
     url: slider22,
-  }, {
-    url: slider23,
   }
 ];
 
