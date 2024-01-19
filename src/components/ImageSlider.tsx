@@ -27,15 +27,12 @@ import slider23 from '../assets/23.jpg'
 const slideImages = [
   {
     url: slider1,
-    description: "We're getting married!",
   },
   {
     url: slider2,
-    description: "See you around",
   },
   {
     url: slider3,
-    description: "Thanks For Coming",
   },
   {
     url: slider4,
@@ -95,8 +92,8 @@ const WeddingImageSlider = () => {
           <div key={index}>
             <div style={{ 'backgroundImage': `url(${slideImage.url})` }} className='bg-cover bg-center h-screen relative'>
               <div className='absolute top-0 left-0 p-16 text-[#E8E8E8] lg:p-32'>
-                <div className='font-bold text-3xl lg:text-6xl mb-4 lg:mb-16'>Cynthia & Eric</div>
-                {slideImage.description && <div className='font-bold text-xl lg:text-4xl font-rainbow'>{slideImage.description}</div>}
+                {/* <div className='font-bold text-3xl lg:text-6xl mb-4 lg:mb-16'>Cynthia & Eric</div> */}
+                {/* {slideImage.description && <div className='font-bold text-xl lg:text-4xl font-rainbow'>{slideImage.description}</div>} */}
               </div>
             </div>
           </div>
