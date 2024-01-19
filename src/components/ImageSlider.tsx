@@ -22,7 +22,6 @@ import slider19 from '../assets/19.jpg'
 import slider20 from '../assets/20.jpg'
 import slider21 from '../assets/21.jpg'
 import slider22 from '../assets/22.jpg'
-import slider23 from '../assets/23.jpg'
 
 const slideImages = [
   {
